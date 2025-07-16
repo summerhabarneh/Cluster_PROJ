@@ -5,20 +5,20 @@ An unsupervised machine learning project that was able to qualify different coun
 
 ## Key Findings
 - **23%** of countries qualified as full democracies
-- - score was > 8.0
+  - score was > 8.0
 - **29%** of countries fell under authoritarian regimes
-- - score was < 4.0
+  - score was < 4.0
 - 4 clusters were validated using elbow method and silhouette analysis
 
 ## Dataset
 - **Source**: Democracy Index 2023
 - **Size**: 167 countries and 5 democratic indicators (total=835)
 - **Features** :
-- - Electoral process and pluralism
-- - Functioning of government
-- - Political participation
-- - Political culture
-- - Civil liberties
+  - Electoral process and pluralism
+  - Functioning of government
+  - Political participation
+  - Political culture
+  - Civil liberties
 
 ## Methodology
 1. **Data Preprocessing**: StandardScalar for feature normalization
